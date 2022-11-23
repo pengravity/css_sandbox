@@ -65,6 +65,10 @@
   margin: 8px 0;
 }
 
+.plan-list {
+  text-align: center;
+}
+
 #key-features {
   background: #ff1b68;
   margin-top: 80px;
