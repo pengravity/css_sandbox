@@ -162,3 +162,28 @@ body {
   color: white;
   font-size: 20px;
 }
+
+.box {
+  width: 250px;
+  height: 200px;
+  background-color: #0e4f1f;
+  border: 2px solid #424242;
+}
+
+.box-large {
+  width: 35%;
+  height: 400px;
+  background-color: #14df4a;
+  border: 2px solid #424242;
+}
+
+.box-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.box-column {
+  display: flex;
+  flex-direction: column;
+}
