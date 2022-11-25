@@ -1,6 +1,6 @@
 .testimonial {
-  font-size: 20px;
-  margin: 48px 0;
+  font-size: 1.2rem;
+  margin: 3rem 0;
 }
 
 .testimonial__list {
@@ -28,7 +28,7 @@
 
 .testimonial__info {
   text-align: right;
-  padding: 14px;
+  padding: 0.8rem;
   display: inline-block;
   vertical-align: middle;
   width: 30%;
