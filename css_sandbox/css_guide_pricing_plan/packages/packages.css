@@ -61,3 +61,17 @@ section .premium {
   color: white;
   text-align: start;
 }
+
+@media (min-width: 40rem) {
+  .main {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+}
+
+/* @media (min-width: 1500px) {
+  .main {
+    margin: 3rem auto;
+    max-width: 1500px;
+  }
+} */
