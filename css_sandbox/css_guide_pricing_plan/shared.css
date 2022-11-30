@@ -32,11 +32,9 @@ main {
   z-index: 1;
   top: 0;
   left: 0;
-}
-
-.main-header > div {
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main-header__brand {
@@ -44,28 +42,25 @@ main {
   text-decoration: none;
   font-weight: bold;
   height: 2.5rem;
-  vertical-align: middle;
 }
 
 .main-header__brand img {
   height: 2.5rem;
+  vertical-align: middle;
 }
 
 .main-nav {
-  display: inline-block;
-  text-align: right;
-  width: calc(100% - 122px);
-  vertical-align: middle;
+  display: none;
 }
 
 .main-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .main-nav__item {
-  display: inline-block;
   margin: 0 1rem;
 }
 
@@ -206,4 +201,14 @@ main {
 
 .open {
   display: block !important;
+}
+
+@media (min-width: 40rem) {
+  .toggle-button {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+  }
 }
