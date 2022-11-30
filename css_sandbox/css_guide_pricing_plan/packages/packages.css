@@ -17,9 +17,14 @@
   padding: 0.5rem;
   border-radius: 0.75rem;
 }
+section {
+  font-family: 'Roboto' 'Montserrat', sans-serif;
+}
 
 section a {
   background: #d5ffdc;
+  /* background: #25b43d; */
+
   text-align: center;
   padding: 1rem;
   margin: 0.5rem;
@@ -28,6 +33,8 @@ section a {
   vertical-align: middle;
   text-decoration: none;
   border: 4px solid #0e4f1f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 }
 
 section a:hover {
